@@ -2,6 +2,7 @@
 
 A complete production-ready Spring Boot 3 backend application for managing posts and issues with role-based access control.
 
+
 ## Technology Stack
 
 - **Spring Boot 3.2.0**
