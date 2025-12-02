@@ -1,0 +1,170 @@
+Create a professional, concise, and visually engaging 10-minute presentation for my traineeship final evaluation.
+The presentation must be specific to my own project, not generic.
+Follow all the instructions below exactly.
+
+PROJECT DETAILS
+
+I built a Post/Issue Management System during my traineeship at Vigorous IT Solution.
+The full project includes:
+
+Backend
+
+Java Spring Boot 3
+
+Spring Security 6
+
+JWT authentication (mandatory, fully implemented)
+
+H2 file-based database (not MySQL)
+
+Feature-based project structure:
+
+user/
+   controller, service, repository, dto
+post/
+   controller, service, repository, dto
+comment/
+   controller, service, repository, dto
+config/
+   security, jwt filter
+exception/
+
+
+DTO + Entity mapping
+
+Validation using Jakarta
+
+Centralized exception handling
+
+Frontend
+
+Angular
+
+Login Page
+
+Register Page
+
+Create Post
+
+Submit Post
+
+Admin Dashboard
+
+Post List
+
+Post Details
+
+Comment System
+
+Angular Interceptor attaching JWT token
+
+FEATURES TO INCLUDE
+User
+
+Register/Login with JWT
+
+Create post (saved as DRAFT)
+
+Submit post for approval
+
+Comment on posts
+
+View own posts + approved posts
+
+Admin
+
+View all posts
+
+Approve / Reject posts
+
+Close posts
+
+Add update notes
+
+Comment on any post
+
+Post Workflow
+DRAFT → PENDING_APPROVAL → APPROVED → CLOSED
+                 ↓
+             REJECTED
+
+PRESENTATION REQUIREMENTS
+Duration
+
+Presentation = 10 minutes
+
+Demo = 5 minutes
+
+QnA = 5 minutes
+
+Slide Structure Required by Senior Engineering Manager
+
+Include the following mandatory sections:
+
+Title Slide
+
+Problem Statement
+
+Objectives
+
+Tools & Technologies Used
+
+Implementation Plan
+
+System Architecture (visual diagram)
+
+Design & Development
+
+Backend overview (architecture, JWT flow, layered design)
+
+Frontend overview (screens, routes, interceptor)
+
+Feature-based folder structure
+
+Post workflow diagram
+
+Testing & Validation
+
+API testing (Postman)
+
+JWT verification
+
+Form validations
+
+Challenges Faced
+
+Learning & Improvements
+
+Conclusion
+
+Visual Requirements
+
+Add architecture diagrams
+
+JWT flow diagram
+
+Sequence flow: Controller → Service → Repository → DB
+
+Frontend UI screenshots placeholders
+
+Post workflow diagram
+
+Icons for features
+
+Tone & Style
+
+Clear
+
+Minimal text
+
+Highly visual
+
+To-the-point
+
+Professional, polished design
+
+No generic content — everything must clearly match THIS project only
+
+GOAL
+
+Produce a fully structured slide deck that fits within a 10-minute presentation and clearly shows my contribution, technical understanding, workflow, and implementation.
